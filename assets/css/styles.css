@@ -1,0 +1,192 @@
+body {
+  background-color: wheat;
+}
+
+/* NavBar */
+
+.ced-logo img {
+  height: 80px;
+}
+.ced-logo {
+  background-color: #3b3b39;
+}
+
+/* Carousel */
+
+#carouselExampleCaptions {
+  margin: 0;
+}
+
+.carousel-item p {
+  color: #e6ed17;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+}
+
+.carousel-item h2 {
+  font-family: "Lobster", cursive;
+  color: green;
+  font-size: 5em;
+}
+@media (max-width: 768px) {
+  green .carousel-item p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .carousel-item h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+/* Jumbotron */
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 0%;
+  background-color: black;
+  border-radius: 0.3rem;
+}
+.jumbotron1 {
+  width: 100%;
+}
+.jumbotron img {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+.jumbotron h1 {
+  text-align: center;
+  color: #ba380b;
+  font-family: "Lobster", cursive;
+}
+.jumbotron h2 {
+  text-align: center;
+  color: #29b610;
+  font-family: "Lobster", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.jumbotron li {
+  color: white;
+}
+ul {
+  list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+
+/* FIN PAGE 1 */
+
+/* PAGE 2 */
+
+.section2 {
+  width: 100%;
+  margin-top: 20px;
+}
+.ced-row1 {
+  margin: 0;
+}
+.card-body1 {
+  background-color: #0b48a0;
+  height: 100%;
+}
+.card-body1 h5 {
+  color: whitesmoke;
+}
+.card-body1 p {
+  color: red;
+}
+
+.card-body2 {
+  background-color: whitesmoke;
+}
+
+.card-body2 h5 {
+  color: blue;
+}
+.card-body2 p {
+  color: red;
+}
+
+.card-body3 {
+  background-color: red;
+  height: 100%;
+}
+
+.card-body3 h5 {
+  color: blue;
+}
+.card-body3 p {
+  color: whitesmoke;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "La Belle Aurore", cursive;
+
+  font-family: "Lobster", cursive;
+}
+.card-title {
+  text-align: center;
+}
+.card-deck {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.card-body1 h5,
+.card-body2 h5,
+.card-body3 h5 {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+}
+
+/* accordion */
+.card1 {
+  background-color: #d1ddd4;
+}
+.accordion {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card-header h1 {
+  text-align: center;
+}
+
+.card-body {
+  font-family: "Quintessential", cursive;
+  color: red;
+  font-size: 1.5em;
+}
+.card-body p {
+  font-family: "Quintessential", cursive;
+  color: green;
+  font-size: 1em;
+}
+
+/* Page 3 */
+
+/* forms */
+
+.forms {
+  background-color: beige;
+  margin: 20px;
+}
+
+/* Footer */
+.card {
+  background-color: black;
+  color: wheat;
+}
